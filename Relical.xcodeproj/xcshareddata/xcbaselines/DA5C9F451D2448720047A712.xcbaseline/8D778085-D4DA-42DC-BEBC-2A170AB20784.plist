@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>DiskCacheTests</key>
+		<dict>
+			<key>testDiskCache()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.012734</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+			<key>testDiskCachePurged()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.026095</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+			<key>testDiskCacheRemoveAllValues()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.014119</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+			<key>testDiskCacheRemoveValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.014351</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>InMemoryCacheTests</key>
+		<dict>
+			<key>testInMemoryCacheObject1()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00026628</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+			<key>testInMemoryCacheObject2()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00013143</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+			<key>testInMemoryCacheRemoveAllValues()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00023887</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 23:35:27</string>
+				</dict>
+			</dict>
+			<key>testRemoveInMemoryObject()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00022732</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>09.07.2016, 18:05:38</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

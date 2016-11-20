@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classNames</key>
+	<dict>
+		<key>DiskCacheTests</key>
+		<dict>
+			<key>testGetLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.011834</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetLargeValueExpired()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.010825</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetLargeValuePurged()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.016551</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0016318</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetValueExpired()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0013475</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetValuePurged()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.043618</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveAllValues()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.015932</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveAllValuesFailed()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.016002</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.014799</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0024035</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testSetLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.011771</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testSetValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0016643</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>InMemoryCacheTests</key>
+		<dict>
+			<key>testGetLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00063873</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetLargeValueExpired()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00067606</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00091283</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testGetValueExpired()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00089754</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveAllValues()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00076935</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.0011288</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testRemoveValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00091232</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testSetLargeValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00073268</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+			<key>testSetValue()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.00067828</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>20.11.2016, 22:17:58</string>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
