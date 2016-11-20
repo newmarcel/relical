@@ -2,6 +2,8 @@
 
 ## Asynchronous Caches for Swift 3
 
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-ED523F.svg?style=flat)](https://github.com/apple/swift) [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage) [![Build Status](https://travis-ci.org/newmarcel/relical.svg?branch=master)](https://travis-ci.org/newmarcel/relical)
+
 A collection of cache objects conforming to a unified `AsynchronousCache` protocol.
 
 ## Caches ##
