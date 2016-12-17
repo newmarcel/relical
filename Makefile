@@ -14,8 +14,18 @@ init:
 
 clean:
 	rm -rf $(BUILD_DIR)
+	rm -rf $(NAME)SPM.xcodeproj
 
-test: test-ios test-macos
+build:
+	swift build --build-path $(BUILD_DIR) --configuration release
+
+project:
+	swift package generate-xcodeproj --output $(NAME)SPM.xcodeproj --enable-code-coverage
+
+test: test-ios test-macos test-spm
+
+test-spm:
+	swift test --build-path $(BUILD_DIR)
 
 test-macos:
 	fastlane scan \
@@ -46,4 +56,4 @@ framework:
 	carthage build --no-skip-current
 	carthage archive $(NAME)
 
-.PHONY: init clean test test-ios test-mac framework
+.PHONY: init clean build project test test-spm test-ios test-mac framework
