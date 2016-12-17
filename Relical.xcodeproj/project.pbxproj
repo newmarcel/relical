@@ -167,8 +167,8 @@
 		DA5C9F0B1D24471D0047A712 = {
 			isa = PBXGroup;
 			children = (
-				DA5C9F171D24471D0047A712 /* Relical */,
-				DA5C9F511D2448C80047A712 /* RelicalTests */,
+				DADA19A51E05C3B900E11BA3 /* Sources */,
+				DADA19A61E05C3BF00E11BA3 /* Tests */,
 				DA5C9F161D24471D0047A712 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,6 +242,22 @@
 				DAF204821D43D1AE00875E9D /* NSBundle+Current.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DADA19A51E05C3B900E11BA3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C9F171D24471D0047A712 /* Relical */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DADA19A61E05C3BF00E11BA3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C9F511D2448C80047A712 /* RelicalTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -741,7 +757,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical";
@@ -761,7 +777,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical";
@@ -782,7 +798,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-macOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-macOS";
@@ -805,7 +821,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-macOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-macOS";
@@ -819,7 +835,7 @@
 		DA5C9F401D24485E0047A712 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-iOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -830,7 +846,7 @@
 		DA5C9F411D24485E0047A712 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-iOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-iOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -843,7 +859,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-macOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -857,7 +873,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-macOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -874,7 +890,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-tvOS";
@@ -894,7 +910,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-tvOS";
@@ -909,7 +925,7 @@
 		DA5C9F7B1D244A240047A712 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-tvOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -922,7 +938,7 @@
 		DA5C9F7C1D244A240047A712 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = "RelicalTests/Supporting Files/Info-tvOS.plist";
+				INFOPLIST_FILE = "Tests/RelicalTests/Supporting Files/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.RelicalTests-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -941,7 +957,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-watchOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-watchOS";
@@ -962,7 +978,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Relical/Supporting Files/Info-watchOS.plist";
+				INFOPLIST_FILE = "Sources/Relical/Supporting Files/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.marcel-dierkes.Relical-watchOS";
