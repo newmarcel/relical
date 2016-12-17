@@ -46,6 +46,9 @@
 		DA76FB1B1D9D8DE800918868 /* TestPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DA76FB1A1D9D8DE800918868 /* TestPhoto.png */; };
 		DA76FB1C1D9D8DE800918868 /* TestPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DA76FB1A1D9D8DE800918868 /* TestPhoto.png */; };
 		DA76FB1D1D9D8DE800918868 /* TestPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = DA76FB1A1D9D8DE800918868 /* TestPhoto.png */; };
+		DABBBBA41E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBBBA31E05CA6600A2AA4F /* TestPhotoPNG.swift */; };
+		DABBBBA51E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBBBA31E05CA6600A2AA4F /* TestPhotoPNG.swift */; };
+		DABBBBA61E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABBBBA31E05CA6600A2AA4F /* TestPhotoPNG.swift */; };
 		DAD1C3D21D51D88B0056FF8E /* GenericCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1C3CD1D51D7130056FF8E /* GenericCacheTests.swift */; };
 		DAD1C3D31D51D88C0056FF8E /* GenericCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1C3CD1D51D7130056FF8E /* GenericCacheTests.swift */; };
 		DAD1C3D41D51D88C0056FF8E /* GenericCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD1C3CD1D51D7130056FF8E /* GenericCacheTests.swift */; };
@@ -104,6 +107,7 @@
 		DA5C9F971D244BFE0047A712 /* NSURL+CachesDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSURL+CachesDirectory.swift"; sourceTree = "<group>"; };
 		DA663E031D271CF300E89C35 /* DiskCacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskCacheTests.swift; sourceTree = "<group>"; };
 		DA76FB1A1D9D8DE800918868 /* TestPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestPhoto.png; sourceTree = "<group>"; };
+		DABBBBA31E05CA6600A2AA4F /* TestPhotoPNG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestPhotoPNG.swift; sourceTree = "<group>"; };
 		DAD1C3CD1D51D7130056FF8E /* GenericCacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCacheTests.swift; sourceTree = "<group>"; };
 		DAF204821D43D1AE00875E9D /* NSBundle+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+Current.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -219,6 +223,7 @@
 				DA663E031D271CF300E89C35 /* DiskCacheTests.swift */,
 				DA5C9F5E1D24498F0047A712 /* InMemoryCacheTests.swift */,
 				DAD1C3CD1D51D7130056FF8E /* GenericCacheTests.swift */,
+				DABBBBA31E05CA6600A2AA4F /* TestPhotoPNG.swift */,
 				DA76FB1A1D9D8DE800918868 /* TestPhoto.png */,
 				DA5C9F531D2448C80047A712 /* Supporting Files */,
 			);
@@ -570,6 +575,7 @@
 			files = (
 				DA4A9BC41D3196AA006E6F92 /* CacheItemTests.swift in Sources */,
 				DAD1C3D21D51D88B0056FF8E /* GenericCacheTests.swift in Sources */,
+				DABBBBA41E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */,
 				DA5C9F5F1D24498F0047A712 /* InMemoryCacheTests.swift in Sources */,
 				DA663E041D271CF300E89C35 /* DiskCacheTests.swift in Sources */,
 			);
@@ -581,6 +587,7 @@
 			files = (
 				DA4A9BC51D3196AA006E6F92 /* CacheItemTests.swift in Sources */,
 				DAD1C3D31D51D88C0056FF8E /* GenericCacheTests.swift in Sources */,
+				DABBBBA51E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */,
 				DA5C9F601D24498F0047A712 /* InMemoryCacheTests.swift in Sources */,
 				DA663E051D271CF300E89C35 /* DiskCacheTests.swift in Sources */,
 			);
@@ -605,6 +612,7 @@
 			files = (
 				DA4A9BC61D3196AA006E6F92 /* CacheItemTests.swift in Sources */,
 				DAD1C3D41D51D88C0056FF8E /* GenericCacheTests.swift in Sources */,
+				DABBBBA61E05CA6600A2AA4F /* TestPhotoPNG.swift in Sources */,
 				DA5C9F901D244A7F0047A712 /* InMemoryCacheTests.swift in Sources */,
 				DA663E061D271CF300E89C35 /* DiskCacheTests.swift in Sources */,
 			);

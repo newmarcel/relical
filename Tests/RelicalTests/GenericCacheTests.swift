@@ -18,9 +18,12 @@ enum SharedTestData {
     ])
     
     static let blobData: (String, NSData) = ("blob", {
-        class BundleHelper {}
-        let URL = Bundle(for: BundleHelper.self).url(forResource: "TestPhoto", withExtension: "png")!
-        return (try! NSData(contentsOf: URL))
+//        class BundleHelper {}
+//        let URL = Bundle(for: BundleHelper.self).url(forResource: "TestPhoto", withExtension: "png")!
+//        return (try! NSData(contentsOf: URL))
+        // FIXME: Use base64-encoded image for Swift Package Manager,
+        // because it doesn't support loading image files from the bundle.
+        return NSData(base64Encoded: testPhotoPNG)!
     }())
 }
 
