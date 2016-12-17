@@ -1,4 +1,4 @@
-IOS_VERSION = 10.1
+IOS_VERSION = 10.2
 IOS_DEVICES = iPhone 7 ($(IOS_VERSION))
 
 NAME = Relical
