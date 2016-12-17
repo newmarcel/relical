@@ -10,7 +10,7 @@ LOG_DIR = $(BUILD_DIR)/Logs
 
 init:
 	$(info Installing command line build dependencies...)
-	gem install --no-document --quiet scan
+	gem install --no-document --quiet fastlane
 
 clean:
 	rm -rf $(BUILD_DIR)
@@ -18,7 +18,7 @@ clean:
 test: test-ios test-macos
 
 test-macos:
-	scan \
+	fastlane scan \
 	--clean \
 	--workspace "$(WORKSPACE)" \
 	--scheme "$(SCHEME)-macOS" \
@@ -30,7 +30,7 @@ test-macos:
 	SYMROOT="$(BUILD_DIR)"
 
 test-ios:
-	scan \
+	fastlane scan \
 	--clean \
 	--workspace "$(WORKSPACE)" \
 	--scheme "$(SCHEME)-iOS" \
